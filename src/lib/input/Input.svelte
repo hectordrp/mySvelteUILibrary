@@ -6,15 +6,13 @@
 	export let value: string = '';
 	export let placeholder: string = 'Placeholder';
 	export let helperText: string = 'Helper Text';
-	export let status: "success" | "error" | "warning" | "" = '';
+	export let status: "success" | "error" | "warning" | "default" = 'default';
     export let disabled: boolean = false;
     export let required: boolean = false;
     export let type: "text" | "password" | "email" | "number" | "tel" | "url" | "search" | "date" | "time" | "datetime-local" | "month" | "week" | "color" | "file" | "range" = 'text';
     export let textArea: boolean = false;
     export let rows: number = 4;
 
-
-    
 </script>
 
 <div class="customInput {status}">
