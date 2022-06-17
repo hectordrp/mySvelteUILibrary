@@ -10,6 +10,7 @@
     --atos-green: #00A39B;
     --atos-red: #FF5269;
     --atos-yellow: #B88D00;
+    --atos-light-gray: #d3d3d3;
 }
 
 .statusIcon--success::after {
