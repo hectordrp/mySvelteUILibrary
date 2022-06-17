@@ -6,6 +6,11 @@ export const parameters = {
 			date: /Date$/,
 		},
 	},
+	options: {
+		storySort: {
+		  order: ['Logo','*'],
+		},
+	  },
 };
 
 import '../src/global.css';
