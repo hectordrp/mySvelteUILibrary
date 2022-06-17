@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { quintOut } from 'svelte/easing';
 	import { fade, draw, fly } from 'svelte/transition';
 
@@ -8,6 +8,7 @@
 		visible = true;
 	}, 100);
 
+	export let subText: string = 'Components';
 	
 </script>
 
@@ -30,7 +31,7 @@
 	</svg>
 
 	<div class="centered" >
-		{#each 'Components' as char, i}
+		{#each subText as char, i}
 			<span
 				in:fade="{{delay: 1000 + i * 150, duration: 800}}"
 			>{char}</span>
