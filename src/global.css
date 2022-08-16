@@ -32,6 +32,7 @@ html, body {
     color: var(--atos-white);
     background-color: var(--atos-black);
     font-family: 'Raleway', sans-serif;
+    margin: 0 !important;
 }
 
 a {
